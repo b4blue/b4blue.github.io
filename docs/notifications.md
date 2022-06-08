@@ -32,26 +32,14 @@ Followed Items {#followed}
 --------------------------------------------------------------
 Button `Followed Items` opens a page where user can see a list of items he followed and will be taken into account when sending notifications.
 
-
-Pass data between phases
+Followed Searches {#followedsearches}
 ------------------------
+Button `Followed Searches` opens a page with a list of saved user's searches that are followed. This is different from followed items. When user follows a search, items are generated from search results, just before notifications are dispatched. Depnding on criteria defined in the search, these items can be different every time notifications are dispatched.
 
-Often it is necessary to pass data from one phase to another.
-For example, you might want to store user input from the interaction phase and use the input in the get data phase to build personalized requests to an API.
+Notifications interval {#interval}
+-------------------------------------
+User can choose how often notifications should be generated and sent. Options are `Daily`, `Weekly` (with additional option to choose th day of the week), `Every month on the 1st` and `Every month on the last day of the month`. Next to these options the date for next notifications batch is calculated and displayed. 
 
-You can store data that you want to pass between phases using the `tableau.connectionData` property.
-The property can only store data as a string, so if you want to store JavaScript objects, you must serialize and deserialize the data.
-
-For example, to store a JavaScript object as a string, you might run the following code:
-
-```
-tableau.connectionData = JSON.stringify(example_data);
-```
-
-Then, to convert the string back into a JavaScript object, you might run the following code:
-
-```
-JSON.parse(tableau.connectionData);
-```
-
-For an example of how you might use this in a web data connector, see the [Multiple Tables Tutorial]({{ site.baseurl }}/docs/wdc_multi_table_tutorial).
+Product Fields {#fields}
+----------------------------------
+Every product has different fields that show what kind of changes user can expect from a product and here, user can choose which are important. This granularity allows user to focus on only things that really matter, so that when notifications are sent, the data is not overwhelming. When these values are set, they will apply to all the items user is following.
