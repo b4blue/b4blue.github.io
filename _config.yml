@@ -1,8 +1,8 @@
 # Site settings
-title: Tableau Web Data Connector
-email: jdominguez@tableau.com
+title: Zapier Smart Integration
+email: boris@smartapartmentdata.com
 description: Connect to your web data from Tableau.
-baseurl: "/webdataconnector"
+baseurl: "/docs"
 # permalink: pretty
 defaults:
   -
