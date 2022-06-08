@@ -1,10 +1,9 @@
 ---
-title: WDC Lifecycle and Phases
+title: Notifications Settings
 layout: docs
 ---
 
-This document explains the overall lifecycle of a Tableau Web Data Connector. It is recommended that you understand the
-material from the Get Started section before diving into this material.
+This document explains the notifications settings page. 
 
 A WDC is always run with an associated phase.  Tableau loads
 the connector inside a web browser at different times and in distinct phases.
@@ -14,12 +13,12 @@ This document will explain each of these phases and when each one runs.
 {:toc}
 
 
-Lifecycle diagram {#diagram}
+Settings page {#page}
 --------------------------------------------------
 
 At a high level, the WDC lifecycle is as follows:
 
-<img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/wdc_flow.png" alt="">
+<img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/notificationSettings.png" alt="">
 
 **Note**: This is slightly simplified.
 For example, `shutdown` and `shutdownCallback` were left out, but both
