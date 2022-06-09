@@ -10,7 +10,7 @@ Follow API {#followTitle}
 
 ---
 
-### `DELETE` ***/api​/Follow​/unfollowAll*** ### {#anc1}
+#### `DELETE` ***/api​/Follow​/unfollowAll*** {#anc1}
 ---
 
 
@@ -20,7 +20,7 @@ Follow API {#followTitle}
 
 ---------
 
-### `POST` ***/api​/Follow​/followed*** {#anc2}
+#### `POST` ***/api​/Follow​/followed*** {#anc2}
 ---
 
 **Request:**
