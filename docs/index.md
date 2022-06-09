@@ -2,12 +2,23 @@
 title: Get Started
 layout: docs
 ---
+### Get started {#getstarted}
 
-Create a Web Data Connector (WDC) when you want to connect to a web data source from Tableau. A WDC is an HTML page
-with JavaScript code that connects to web data (for example, by means of a REST API), converts the data to a JSON format,
-and passes the data to Tableau.
+Notifications are closely tied to product timeline updates. Every time there is a change within a Property, Management, Pipeline, Directory or a Developer, this creates a new update in the timeline. Within each of the product, there are different types of updates. If you follow a Property or a Management, you have to define which changes you want to be notified on. This is done on Notification Settings page. Product updates are collected in the database and when it's time for sending notifications (defined by user), all these updates are funneled through different criteria in notification settings and the resulting updates are sent to a 3rd party service, like Zapier. There, user that created a Zap with Smart Integration, can decide what to do with received data and which other integrations should receive it. 
 
 <div class="alert alert-info">
+    <b>Note:</b> This site is for version 2.x of the WDC API, which is compatible only with Tableau 10.0 and later. Version 1 of the WDC API, used with earlier versions of Tableau, is no longer supported.  
+</div>
+
+<div class="alert alert-warning">
+    <b>Note:</b> This site is for version 2.x of the WDC API, which is compatible only with Tableau 10.0 and later. Version 1 of the WDC API, used with earlier versions of Tableau, is no longer supported.  
+</div>
+
+<div class="alert alert-note">
+    <b>Note:</b> This site is for version 2.x of the WDC API, which is compatible only with Tableau 10.0 and later. Version 1 of the WDC API, used with earlier versions of Tableau, is no longer supported.  
+</div>
+
+<div class="alert alert-important">
     <b>Note:</b> This site is for version 2.x of the WDC API, which is compatible only with Tableau 10.0 and later. Version 1 of the WDC API, used with earlier versions of Tableau, is no longer supported.  
 </div>
 
