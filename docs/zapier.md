@@ -3,7 +3,9 @@ title: Smart Integration
 layout: docs
 ---
 
-![zap1]({{ site.baseurl }}/assets/zap1.png){:height="842px" width="594px"}
+![zap1]({{ site.baseurl }}/assets/zap1.png =594x842)
+
+{:height="842px" width="594px"}
 
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap2.png" alt="">
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap3.png" alt="">
