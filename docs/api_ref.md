@@ -92,6 +92,7 @@ Follow {#followTitle}
 }
 ~~~
 ---------
+
 `POST` ***/api​/Follow​/followList*** {#anc4}
 ---
 
@@ -107,6 +108,7 @@ Follow {#followTitle}
 **Response:** Bool
 
 ----
+
 `POST` ***/api​/Follow​/notifications​/test*** {#anc5}
 ---
 
@@ -115,6 +117,7 @@ Follow {#followTitle}
 **Response:** Bool
 
 ----
+
 `POST` ***​/api​/Follow​/userSearch​/{id}​/follow*** {#anc6}
 ---
 
@@ -123,6 +126,7 @@ Follow {#followTitle}
 **Response:** Bool
 
 ---
+
 `PUT` ***​/api​/Follow​/userSearch​/{id}​/unfollow*** {#anc7}
 ---
 
@@ -131,6 +135,7 @@ Follow {#followTitle}
 **Response:** Bool
 
 ---
+
 `POST` ***/api​/Follow​/property​/{id}*** {#anc8}
 ---
 
@@ -139,6 +144,7 @@ Follow {#followTitle}
 **Response:** Bool
 
 ---
+
 `PUT` ***/api​/Follow​/property​/{id}​/unfollow*** {#anc9}
 ---
 
@@ -147,6 +153,7 @@ Follow {#followTitle}
 **Response:** Bool
 
 ---
+
 `POST` ***​/api​/Follow​/property​/followSearchResults*** {#anc10}
 ---
 
@@ -169,6 +176,7 @@ Follow {#followTitle}
 ~~~
 
 ---
+
 `PUT` ***/api​/Follow​/property​/unfollowSearchResults*** {#anc11}
 ---
 
@@ -191,6 +199,7 @@ Follow {#followTitle}
 ~~~
 
 ---
+
 `POST` ***/api​/Follow​/pipeline​/{id}*** {#anc12}
 ---
 
@@ -199,6 +208,7 @@ Follow {#followTitle}
 **Response:** Bool
 
 ---
+
 `PUT` ***​/api​/Follow​/pipeline​/{id}​/unfollow*** {#anc13}
 ---
 
@@ -207,6 +217,7 @@ Follow {#followTitle}
 **Response:** Bool
 
 ---
+
 `POST` ***/api​/Follow​/pipeline​/followSearchResults*** {#anc14}
 ---
 
@@ -229,6 +240,7 @@ Follow {#followTitle}
 ~~~
 
 ---
+
 `PUT` ***/api​/Follow​/pipeline​/unfollowSearchResults*** {#anc15}
 ---
 
@@ -251,6 +263,7 @@ Follow {#followTitle}
 ~~~
 
 ---
+
 `POST` ***/api​/Follow​/management​/{id}*** {#anc16}
 ---
 
@@ -259,6 +272,7 @@ Follow {#followTitle}
 **Response:** Bool
 
 ---
+
 `PUT` ***/api​/Follow​/management​/{id}​/unfollow*** {#anc17}
 ---
 
@@ -267,6 +281,7 @@ Follow {#followTitle}
 **Response:** Bool
 
 ---
+
 `POST` ***​/api​/Follow​/management​/followSearchResults*** {#anc18}
 ---
 
@@ -289,6 +304,7 @@ Follow {#followTitle}
 ~~~
 
 ---
+
 `PUT` ***/api​/Follow​/management​/unfollowSearchResults*** {#anc19}
 ---
 
@@ -311,6 +327,7 @@ Follow {#followTitle}
 ~~~
 
 ---
+
 `POST` ***/api​/Follow​/directory​/{id}*** {#anc20}
 ---
 
@@ -319,6 +336,7 @@ Follow {#followTitle}
 **Response:** Bool
 
 ---
+
 `PUT` ***​/api​/Follow​/directory​/{id}​/unfollow*** {#anc21}
 ---
 
@@ -327,6 +345,7 @@ Follow {#followTitle}
 **Response:** Bool
 
 ---
+
 `POST` ***/api​/Follow​/directory​/followSearchResults*** {#anc22}
 ---
 
@@ -346,6 +365,7 @@ Follow {#followTitle}
   0
 ]
 ~~~
+---
 
 `PUT` ***/api​/Follow​/directory​/unfollowSearchResults*** {#anc23}
 ---
@@ -369,6 +389,7 @@ Follow {#followTitle}
 ~~~
 
 ---
+
 `POST` ***​/api​/Follow​/developer​/{id}*** {#anc24}
 ---
 
@@ -377,6 +398,7 @@ Follow {#followTitle}
 **Response:** Bool
 
 ---
+
 `PUT` ***/api​/Follow​/developer​/{id}​/unfollow*** {#anc25}
 ---
 
@@ -385,6 +407,7 @@ Follow {#followTitle}
 **Response:** Bool
 
 ---
+
 `POST` ***/api​/Follow​/developer​/followSearchResults*** {#anc26}
 ---
 
@@ -407,6 +430,7 @@ Follow {#followTitle}
 ~~~
 
 ---
+
 `PUT` ***/api​/Follow​/developer​/unfollowSearchResults*** {#anc27}
 ---
 
@@ -429,9 +453,10 @@ Follow {#followTitle}
 ~~~
 
 
-NotificationSetting {#notificationTitle}
+Notification Setting API{#notificationTitle}
 -------------------
 
+---
 
 `GET` ***​/api​/NotificationSetting*** {#anc28}
 ---
@@ -479,6 +504,7 @@ NotificationSetting {#notificationTitle}
 ~~~
 
 ---
+
 `PUT` ***/api​/NotificationSetting*** {#anc29}
 ---
 
@@ -565,6 +591,7 @@ NotificationSetting {#notificationTitle}
 ~~~
 
 ---
+
 `POST` ***/api​/NotificationSetting*** {#anc30}
 ---
 
@@ -651,6 +678,7 @@ NotificationSetting {#notificationTitle}
 ~~~
 
 ---
+
 `DELETE` ***/api​/NotificationSetting*** {#anc31}
 ---
 **Request:** None
@@ -658,6 +686,7 @@ NotificationSetting {#notificationTitle}
 **Response:** Bool
 
 ---
+
 `PUT` ***/api​/NotificationSetting​/token*** {#anc32}
 ---
 
@@ -672,6 +701,7 @@ NotificationSetting {#notificationTitle}
 ~~~
 
 ---
+
 `GET` ***/api​/NotificationSetting​/token*** {#anc33}
 ---
 
