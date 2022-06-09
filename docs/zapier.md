@@ -77,24 +77,85 @@ Here we show how you can decide to use different integrations on step #2, depend
 
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap8.png" alt="">
 
-### 
+---
+---
+### Path A {#anc9}
+
+On a path, we can set up rules for incoming data. Here is an example of a rule that lets through only notifications with "Type" set to "Property" and "Field" to "Management".
+
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap9.png" alt="">
+
+---
+---
+### Testing the path {#anc10}
+
+When path is tested, we see that the test notification would pass, since these are exact values that were in test notification.
+
 
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap10.png" alt="">
 
+---
+---
+### 3drd Party Integration on path A {#anc11}
+
+This is the next step, where we choose where the data from Smart will go, from the choice of 3rd party integrations.
+
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap11.png" alt="">
+
+---
+---
+### Gmail example {#anc12}
+
+Here we can see how path A can be connected to a 3rd party integration like Gmail. Login with your Gmail account and choose
+the type of Event this integration offers, like sending an email.
 
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap12.png" alt="">
 
+---
+---
+### Choosing data from notification {#anc13}
+
+There are a lot of properties in payload for the notification. You don't have to send all of it. Here you can choose which ones will be part of the content of an email and add some text to give it context. At the end of this step you can test it and a test email will be sent to the address of your choice.
+
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap13.png" alt="">
+
+---
+---
+### Publish Zap {#anc14}
+
+Once you have repeated steps for path B, Zap is ready to be published, which you can do by pressing on the button `Publish` in the top right corner.
 
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap14.png" height="75px" width="130px" alt="">
 
+---
+---
+### Turn it On {#anc15}
+
+When you return to the main page, you new Zap will be in the list of your Zaps and you can turn it on.
+
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap15.png" height="75px" width="700px" alt="">
+
+---
+---
+### Zap History {#anc16}
+
+On Smart platform you can now send a test Zap, which will have all the possible combinations of notifications, according to Type and Field values, so you can easily see if everything works as expected. Then you can click on an icon with three dots on your Zap and choose "History".
 
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap16.png" height="400px" width="310px" alt="">
 
-<img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap17.png" alt="">
+---
+---
+### History list {#anc17}
+
+All the notifications that were received by your Zap are listed here. 
 
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap18.png" alt="">
+
+---
+---
+### Details {#anc18}
+
+When you choose an item from the History list, you will see details and data that was sent. After that, you can also check if the integrations you used in your Zap have correctly received/sent data.
+
+<img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap17.png" alt="">
 
