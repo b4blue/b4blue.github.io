@@ -2,9 +2,16 @@
 title: Smart Integration
 layout: docs
 ---
+### Creating a Zap
+
+If you have done all the necessary steps, like opening an account with Zapier, followed products on Smart and set up Notification Settings, you are ready to create your first Zap.
+
+Click on `+ Create Zap` button on the left menu, to start the process.
 
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap1.png" height="542px" width="294px" alt="">
 
+
+Next step is to find Smart Apartment Data integration on Zapier.
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap2.png" alt="">
 
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap3.png" alt="">
