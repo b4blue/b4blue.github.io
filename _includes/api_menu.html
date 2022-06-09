@@ -1,49 +1,133 @@
 <div class="well docs-menu col-xs-12 col-sm-4 col-md-3">
     {% include search_form.html %}
     <ul class="nav nav-list">
-        <li class="nav-header">Overview</li>
+        <li class="nav-header"><a href="{{ site.baseurl }}/docs/api_ref.html#followTitle">Follow API</a></li>
         <li>
-            <a href="{{ site.baseurl }}/docs/index.html">Get Started</a>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`DELETE` ***/api​/Follow​/unfollowAll***</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc2"></a>`POST` ***/api​/Follow​/followed***</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc3"></a>`POST` ***/api​/Follow​/notifications***</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc4"></a>`POST` ***/api​/Follow​/followList***</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc5">POST` ***/api​/Follow​/notifications​/test***</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc6">`POST` ***​/api​/Follow​/userSearch​/{id}​/follow***</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc7">`PUT` ***​/api​/Follow​/userSearch​/{id}​/unfollow***
+                </a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc8">`POST` ***/api​/Follow​/property​/{id}*** </a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc9">`PUT` ***/api​/Follow​/property​/{id}​/unfollow***
+                </a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc10">`POST` ***​/api​/Follow​/property​/followSearchResults***
+                </a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc11">`PUT` ***/api​/Follow​/property​/unfollowSearchResults***
+                </a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc12">`POST` ***/api​/Follow​/pipeline​/{id}***</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`PUT` ***​/api​/Follow​/pipeline​/{id}​/unfollow***
+                {#anc13}</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`POST` ***/api​/Follow​/pipeline​/followSearchResults***
+                {#anc14}</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`PUT`
+                ***/api​/Follow​/pipeline​/unfollowSearchResults***
+                {#anc15}</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`POST` ***/api​/Follow​/management​/{id}*** {#anc16}</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`PUT` ***/api​/Follow​/management​/{id}​/unfollow***
+                {#anc17}</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`POST`
+                ***​/api​/Follow​/management​/followSearchResults***
+                {#anc18}</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`PUT`
+                ***/api​/Follow​/management​/unfollowSearchResults***
+                {#anc19}</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`POST` ***/api​/Follow​/directory​/{id}*** {#anc20}</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`PUT` ***​/api​/Follow​/directory​/{id}​/unfollow***
+                {#anc21}</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`POST`
+                ***/api​/Follow​/directory​/followSearchResults***
+                {#anc22}</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`PUT`
+                ***/api​/Follow​/directory​/unfollowSearchResults***
+                {#anc23}</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`POST` ***​/api​/Follow​/developer​/{id}*** {#anc24}</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`PUT` ***/api​/Follow​/developer​/{id}​/unfollow***
+                {#anc25}</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`POST`
+                ***/api​/Follow​/developer​/followSearchResults***
+                {#anc26}</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`PUT` ***/api​/Follow​/developer​/unfollowSearchResults***
+                {#anc27}</a>
         </li>
 
-        <li class="nav-header">Follow products</li>
-        <li>
-            <a href="{{ site.baseurl }}/docs/wdc_phases.html">Follow a product</a>
+        <li class="nav-header"><a href="{{ site.baseurl }}/docs/api_ref.html#notificationTitle">Notification Settings
+                API</a>
         </li>
         <li>
-            <a href="{{ site.baseurl }}/docs/wdc_library_versions.html">Unfollow a product</a>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`GET` ***​/api​/NotificationSetting*** {#anc28}</a>
         </li>
         <li>
-            <a href="{{ site.baseurl }}/docs/wdc_samples.html">Follow a search</a>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`PUT` ***/api​/NotificationSetting*** {#anc29}</a>
         </li>
         <li>
-            <a href="{{ site.baseurl }}/docs/wdc_debugging.html">Follow search results</a>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`POST` ***/api​/NotificationSetting*** {#anc30}</a>
         </li>
         <li>
-            <a href="{{ site.baseurl }}/docs/wdc_hosting_and_submissions.html">See all followed products</a>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`DELETE` ***/api​/NotificationSetting*** {#anc31}</a>
         </li>
         <li>
-            <a href="{{ site.baseurl }}/docs/wdc_hosting_and_submissions.html">Unfollow all</a>
-        </li>
-
-        <li class="nav-header">Notification Settings</li>
-        <li>
-            <a href="{{ site.baseurl }}/docs/notifications.html#page">Settings page</a>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`PUT` ***/api​/NotificationSetting​/token***
+                {#anc32}</a>
         </li>
         <li>
-            <a href="{{ site.baseurl }}/docs/notifications.html#enabled">Enabled/Disabled</a>
-        </li>
-        <li>
-            <a href="{{ site.baseurl }}/docs/notifications.html#followed">Followed Items</a>
-        </li>
-        <li>
-            <a href="{{ site.baseurl }}/docs/notifications.html#followedsearches">Followed Searches</a>
-        </li>
-        <li>
-            <a href="{{ site.baseurl }}/docs/notifications.html#interval">Notifications interval</a>
-        </li>
-        <li>
-            <a href="{{ site.baseurl }}/docs/notifications.html#fields">Product Fields</a>
+            <a href="{{ site.baseurl }}/docs/api_ref.html#anc1">`GET` ***/api​/NotificationSetting​/token***
+                {#anc33}</a>
         </li>
     </ul>
 </div>

@@ -9,7 +9,7 @@ Follow {#followTitle}
 ------------------------------------
 
 
-`DELETE` ***/api​/Follow​/unfollowAll***
+`DELETE` ***/api​/Follow​/unfollowAll*** {#anc1}
 
 **Request:** None
 
@@ -17,15 +17,7 @@ Follow {#followTitle}
 
 ---------
 
-`POST` ***/api​/Follow​/followed***
-
-**Request:** None
-
-**Response:** Bool
-
-------------
-
-`POST` ***/api​/Follow​/notifications***
+`POST` ***/api​/Follow​/followed*** {#anc2}
 
 **Request:**
 ~~~
@@ -36,7 +28,41 @@ Follow {#followTitle}
   "orderDirection": "string",
   "query": {<Smart Query>}
 }
- 
+~~~
+
+**Response:**
+~~~
+{
+  "items": [
+    {
+      "id": 0,
+      "name": "string",
+      "accountId": 0,
+      "productType": "string",
+      "state": "string",
+      "metro": "string",
+      "zip": "string",
+      "city": "string"
+    }
+  ],
+  "total": 0,
+  "totalWithoutQuery": 0
+}
+~~~
+
+------------
+
+`POST` ***/api​/Follow​/notifications*** {#anc3}
+
+**Request:**
+~~~
+{
+  "limit": 0,
+  "offset": 0,
+  "orderBy": "string",
+  "orderDirection": "string",
+  "query": {<Smart Query>}
+}
 ~~~
 **Response:**
 ~~~
@@ -62,7 +88,7 @@ Follow {#followTitle}
 }
 ~~~
 ---------
-`POST` ***/api​/Follow​/followList***
+`POST` ***/api​/Follow​/followList*** {#anc4}
 
 **Request:**
 ~~~
@@ -76,205 +102,549 @@ Follow {#followTitle}
 **Response:** Bool
 
 ----
-`POST` ***/api​/Follow​/notifications​/test***
+`POST` ***/api​/Follow​/notifications​/test*** {#anc5}
 
 **Request:** None
 
-**Response:** Bool
-
----
-`POST` ***/api​/Follow​/userSearch​/follow***
-**Request:** None
 **Response:** Bool
 
 ----
-`POST` ***​/api​/Follow​/userSearch​/{id}​/follow***
+`POST` ***​/api​/Follow​/userSearch​/{id}​/follow*** {#anc6}
 
 **Request:** None
 
 **Response:** Bool
 
 ---
-`PUT` ***​/api​/Follow​/userSearch​/{id}​/unfollow***
+`PUT` ***​/api​/Follow​/userSearch​/{id}​/unfollow*** {#anc7}
 
 **Request:** None
 
 **Response:** Bool
 
 ---
-`POST` ***/api​/Follow​/property​/{id}***
+`POST` ***/api​/Follow​/property​/{id}*** {#anc8}
 
 **Request:** None
 
 **Response:** Bool
 
 ---
-`PUT` ***/api​/Follow​/property​/{id}​/unfollow***
+`PUT` ***/api​/Follow​/property​/{id}​/unfollow*** {#anc9}
 
 **Request:** None
 
 **Response:** Bool
 
 ---
-`POST` ***​/api​/Follow​/property​/followSearchResults***
+`POST` ***​/api​/Follow​/property​/followSearchResults*** {#anc10}
+
+**Request:**
+~~~
+{
+  "limit": 0,
+  "offset": 0,
+  "orderBy": "string",
+  "orderDirection": "string",
+  "query": {<Smart Query>}
+}
+~~~
+
+**Response:**
+~~~
+[
+  0
+]
+~~~
+
+---
+`PUT` ***/api​/Follow​/property​/unfollowSearchResults*** {#anc11}
+
+**Request:**
+~~~
+{
+  "limit": 0,
+  "offset": 0,
+  "orderBy": "string",
+  "orderDirection": "string",
+  "query": {<Smart Query>}
+}
+~~~
+
+**Response:**
+~~~
+[
+  0
+]
+~~~
+
+---
+`POST` ***/api​/Follow​/pipeline​/{id}*** {#anc12}
 
 **Request:** None
 
 **Response:** Bool
 
 ---
-`PUT` ***/api​/Follow​/property​/unfollowSearchResults***
+`PUT` ***​/api​/Follow​/pipeline​/{id}​/unfollow*** {#anc13}
 
 **Request:** None
 
 **Response:** Bool
 
 ---
-`POST` ***/api​/Follow​/pipeline​/{id}***
+`POST` ***/api​/Follow​/pipeline​/followSearchResults*** {#anc14}
+
+**Request:**
+~~~
+{
+  "limit": 0,
+  "offset": 0,
+  "orderBy": "string",
+  "orderDirection": "string",
+  "query": {<Smart Query>}
+}
+~~~
+
+**Response:**
+~~~
+[
+  0
+]
+~~~
+
+---
+`PUT` ***/api​/Follow​/pipeline​/unfollowSearchResults*** {#anc15}
+
+**Request:**
+~~~
+{
+  "limit": 0,
+  "offset": 0,
+  "orderBy": "string",
+  "orderDirection": "string",
+  "query": {<Smart Query>}
+}
+~~~
+
+**Response:**
+~~~
+[
+  0
+]
+~~~
+
+---
+`POST` ***/api​/Follow​/management​/{id}*** {#anc16}
 
 **Request:** None
 
 **Response:** Bool
 
 ---
-`PUT` ***​/api​/Follow​/pipeline​/{id}​/unfollow***
+`PUT` ***/api​/Follow​/management​/{id}​/unfollow*** {#anc17}
 
 **Request:** None
 
 **Response:** Bool
 
 ---
-`POST` ***/api​/Follow​/pipeline​/followSearchResults***
+`POST` ***​/api​/Follow​/management​/followSearchResults*** {#anc18}
+
+**Request:**
+~~~
+{
+  "limit": 0,
+  "offset": 0,
+  "orderBy": "string",
+  "orderDirection": "string",
+  "query": {<Smart Query>}
+}
+~~~
+
+**Response:**
+~~~
+[
+  0
+]
+~~~
+
+---
+`PUT` ***/api​/Follow​/management​/unfollowSearchResults*** {#anc19}
+
+**Request:**
+~~~
+{
+  "limit": 0,
+  "offset": 0,
+  "orderBy": "string",
+  "orderDirection": "string",
+  "query": {<Smart Query>}
+}
+~~~
+
+**Response:**
+~~~
+[
+  0
+]
+~~~
+
+---
+`POST` ***/api​/Follow​/directory​/{id}*** {#anc20}
 
 **Request:** None
 
 **Response:** Bool
 
 ---
-`PUT` ***/api​/Follow​/pipeline​/unfollowSearchResults***
+`PUT` ***​/api​/Follow​/directory​/{id}​/unfollow*** {#anc21}
 
 **Request:** None
 
 **Response:** Bool
 
 ---
-`POST` ***/api​/Follow​/management​/{id}***
+`POST` ***/api​/Follow​/directory​/followSearchResults*** {#anc22}
+
+**Request:**
+~~~
+{
+  "limit": 0,
+  "offset": 0,
+  "orderBy": "string",
+  "orderDirection": "string",
+  "query": {<Smart Query>}
+}
+~~~
+**Response:**
+~~~
+[
+  0
+]
+~~~
+
+`PUT` ***/api​/Follow​/directory​/unfollowSearchResults*** {#anc23}
+
+**Request:**
+~~~
+{
+  "limit": 0,
+  "offset": 0,
+  "orderBy": "string",
+  "orderDirection": "string",
+  "query": {<Smart Query>}
+}
+~~~
+
+**Response:**
+~~~
+[
+  0
+]
+~~~
+
+---
+`POST` ***​/api​/Follow​/developer​/{id}*** {#anc24}
 
 **Request:** None
 
 **Response:** Bool
 
 ---
-`PUT` ***/api​/Follow​/management​/{id}​/unfollow***
+`PUT` ***/api​/Follow​/developer​/{id}​/unfollow*** {#anc25}
 
 **Request:** None
 
 **Response:** Bool
 
 ---
-`POST` ***​/api​/Follow​/management​/followSearchResults***
+`POST` ***/api​/Follow​/developer​/followSearchResults*** {#anc26}
 
-**Request:** None
+**Request:**
+~~~
+{
+  "limit": 0,
+  "offset": 0,
+  "orderBy": "string",
+  "orderDirection": "string",
+  "query": {<Smart Query>}
+}
+~~~
 
-**Response:** Bool
-
----
-`PUT` ***/api​/Follow​/management​/unfollowSearchResults***
-
-**Request:** None
-
-**Response:** Bool
-
----
-`POST` ***/api​/Follow​/directory​/{id}***
-
-**Request:** None
-
-**Response:** Bool
-
----
-`PUT` ***​/api​/Follow​/directory​/{id}​/unfollow***
-
-**Request:** None
-
-**Response:** Bool
+**Response:**
+~~~
+[
+  0
+]
+~~~
 
 ---
-`POST` ***/api​/Follow​/directory​/followSearchResults***
-**Request:** None
-**Response:** Bool
+`PUT` ***/api​/Follow​/developer​/unfollowSearchResults*** {#anc27}
 
-`PUT` ***/api​/Follow​/directory​/unfollowSearchResults***
+**Request:**
+~~~
+{
+  "limit": 0,
+  "offset": 0,
+  "orderBy": "string",
+  "orderDirection": "string",
+  "query": {<Smart Query>}
+}
+~~~
 
-**Request:** None
-
-**Response:** Bool
-
----
-`POST` ***​/api​/Follow​/developer​/{id}***
-
-**Request:** None
-
-**Response:** Bool
-
----
-`PUT` ***/api​/Follow​/developer​/{id}​/unfollow***
-
-**Request:** None
-
-**Response:** Bool
-
----
-`POST` ***/api​/Follow​/developer​/followSearchResults***
-
-**Request:** None
-
-**Response:** Bool
-
----
-`PUT` ***/api​/Follow​/developer​/unfollowSearchResults***
-
-**Request:** None
-
-**Response:** Bool
+**Response:**
+~~~
+[
+  0
+]
+~~~
 
 
 NotificationSetting {#notificationTitle}
 -------------------
 
 
-`GET` ***​/api​/NotificationSetting***
+`GET` ***​/api​/NotificationSetting*** {#anc28}
 
 **Request:** None
 
-**Response:** Bool
+**Response:**
+~~~
+{
+  "cronExpression": "string",
+  "externalId": "string",
+  "property": {
+    "management": true,
+    "ownership": true,
+    "regional": true,
+    "onsiteManager": true,
+    "renovations": true,
+    "name": true
+  },
+  "pipeline": {
+    "status": true,
+    "startDate": true,
+    "endDate": true,
+    "managementCompany": true
+  },
+  "developer": {
+    "newDevelopments": true,
+    "pipelineStatus": true
+  },
+  "management": {
+    "acquisitions": true,
+    "dispositions": true,
+    "personnel": true,
+    "name": true,
+    "newMarkets": true
+  },
+  "directory": {
+    "employment": true,
+    "title": true
+  },
+  "active": true,
+  "lastUpdated": "2022-06-09T13:01:04.025Z",
+  "nextNotificationAt": "2022-06-09T13:01:04.025Z"
+}
+~~~
 
 ---
-`PUT` ***/api​/NotificationSetting***
+`PUT` ***/api​/NotificationSetting*** {#anc29}
 
-**Request:** None
+**Request:**
+~~~
+{
+  "cronExpression": "string",
+  "active": true,
+  "property": {
+    "management": true,
+    "ownership": true,
+    "regional": true,
+    "onsiteManager": true,
+    "renovations": true,
+    "name": true,
+    "active": true
+  },
+  "pipeline": {
+    "status": true,
+    "startDate": true,
+    "endDate": true,
+    "managementCompany": true,
+    "active": true
+  },
+  "developer": {
+    "newDevelopments": true,
+    "pipelineStatus": true,
+    "active": true
+  },
+  "management": {
+    "acquisitions": true,
+    "dispositions": true,
+    "personnel": true,
+    "name": true,
+    "newMarkets": true,
+    "active": true
+  },
+  "directory": {
+    "employment": true,
+    "title": true,
+    "active": true
+  }
+}
+~~~
 
-**Response:** Bool
+**Response:**
+~~~
+{
+  "cronExpression": "string",
+  "externalId": "string",
+  "property": {
+    "management": true,
+    "ownership": true,
+    "regional": true,
+    "onsiteManager": true,
+    "renovations": true,
+    "name": true
+  },
+  "pipeline": {
+    "status": true,
+    "startDate": true,
+    "endDate": true,
+    "managementCompany": true
+  },
+  "developer": {
+    "newDevelopments": true,
+    "pipelineStatus": true
+  },
+  "management": {
+    "acquisitions": true,
+    "dispositions": true,
+    "personnel": true,
+    "name": true,
+    "newMarkets": true
+  },
+  "directory": {
+    "employment": true,
+    "title": true
+  },
+  "active": true,
+  "lastUpdated": "2022-06-09T13:01:04.025Z",
+  "nextNotificationAt": "2022-06-09T13:01:04.025Z"
+}
+~~~
 
 ---
-`POST` ***/api​/NotificationSetting***
+`POST` ***/api​/NotificationSetting*** {#anc30}
 
-**Request:** None
+**Request:**
+~~~
+{
+  "cronExpression": "string",
+  "active": true,
+  "property": {
+    "management": true,
+    "ownership": true,
+    "regional": true,
+    "onsiteManager": true,
+    "renovations": true,
+    "name": true,
+    "active": true
+  },
+  "pipeline": {
+    "status": true,
+    "startDate": true,
+    "endDate": true,
+    "managementCompany": true,
+    "active": true
+  },
+  "developer": {
+    "newDevelopments": true,
+    "pipelineStatus": true,
+    "active": true
+  },
+  "management": {
+    "acquisitions": true,
+    "dispositions": true,
+    "personnel": true,
+    "name": true,
+    "newMarkets": true,
+    "active": true
+  },
+  "directory": {
+    "employment": true,
+    "title": true,
+    "active": true
+  }
+}
+~~~
 
-**Response:** Bool
+**Response:**
+~~~
+{
+  "cronExpression": "string",
+  "externalId": "string",
+  "property": {
+    "management": true,
+    "ownership": true,
+    "regional": true,
+    "onsiteManager": true,
+    "renovations": true,
+    "name": true
+  },
+  "pipeline": {
+    "status": true,
+    "startDate": true,
+    "endDate": true,
+    "managementCompany": true
+  },
+  "developer": {
+    "newDevelopments": true,
+    "pipelineStatus": true
+  },
+  "management": {
+    "acquisitions": true,
+    "dispositions": true,
+    "personnel": true,
+    "name": true,
+    "newMarkets": true
+  },
+  "directory": {
+    "employment": true,
+    "title": true
+  },
+  "active": true,
+  "lastUpdated": "2022-06-09T13:01:04.025Z",
+  "nextNotificationAt": "2022-06-09T13:01:04.025Z"
+}
+~~~
 
 ---
-`DELETE` ***/api​/NotificationSetting***
+`DELETE` ***/api​/NotificationSetting*** {#anc31}
 **Request:** None
 **Response:** Bool
 
-`PUT` ***/api​/NotificationSetting​/token***
+`PUT` ***/api​/NotificationSetting​/token*** {#anc32}
 
 **Request:** None
 
 **Response:** Bool
+~~~
+{ 
+    "name": "INTEGRATION_KEY", 
+    "value": "string" 
+}
+~~~
 
 ---
-`GET` ***/api​/NotificationSetting​/token***
+`GET` ***/api​/NotificationSetting​/token*** {#anc33}
+
 **Request:** None
-**Response:** Bool
+
+**Response:**
+~~~
+{ 
+    "name": "INTEGRATION_KEY", 
+    "value": "string" 
+}
+~~~
