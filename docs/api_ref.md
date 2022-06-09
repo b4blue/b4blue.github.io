@@ -6,8 +6,9 @@ This is some text about API
 
 
 Follow {#followTitle}
-------------------------------------
+=====================
 
+---
 
 `DELETE` ***/api​/Follow​/unfollowAll*** {#anc1}
 ---
@@ -19,8 +20,8 @@ Follow {#followTitle}
 
 ---------
 
-`POST` ***/api​/Follow​/followed*** {#anc2}
----
+###`POST` ***/api​/Follow​/followed*** {#anc2}###
+
 
 **Request:**
 ~~~
