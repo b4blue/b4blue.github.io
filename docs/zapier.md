@@ -1,8 +1,8 @@
 ---
 title: Smart Integration
-layout: docs
+layout: zapier
 ---
-### Creating a Zap
+### Creating a Zap {#anc1}
 
 If you have done all the necessary steps, like opening an account with Zapier, followed products on Smart and set up Notification Settings, you are ready to create your first Zap.
 
@@ -11,19 +11,19 @@ Click on `+ Create Zap` button on the left menu, to start the process.
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap1.png" height="542px" width="294px" alt="">
 
 
+---
+---
+### Choose Smart Integration {#anc2}
 
-
-### Choose Smart Integration 
-
-Next step is to find Smart Apartment Data integration on Zapier.
+To start the first step you have to find Smart Apartment Data integration on Zapier.
 
 
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap2.png" alt="">
 
 
-
-
-### Choose a Zap Event
+---
+---
+### Choose a Zap Event {#anc3}
 
 Smart Integration only has one Event defined. Notifications Subscription Event has built in mechanism to work with Smart system in delivering notifications to your Zap.
 
@@ -31,19 +31,19 @@ Smart Integration only has one Event defined. Notifications Subscription Event h
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap3.png" alt="">
 
 
+---
+---
+### Authentication {#anc4}
 
-
-### Authentication
-
-Next step is to Authenticate your Zap with Smart platform. A popup window will open, where you need to insert an Integration Key that you copied from Smart in the Notification Settings.
+Next, you have to Authenticate your Zap with Smart platform. A popup window will open, where you need to insert an Integration Key that you copied from Smart in the Notification Settings.
 
 
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap4.png" alt="">
 
 
-
-
-### Testing the trigger
+---
+---
+### Testing the trigger {#anc5}
 
 You are now ready to test if integration receives data from Smart. Click `Test Trigger` button.
 
@@ -51,19 +51,33 @@ You are now ready to test if integration receives data from Smart. Click `Test T
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap5.png" alt="">
 
 
+---
+---
+### Notifications received {#anc6}
 
-
-### Notifications received
-
-A test notification was sent to Zapier to validate and show a typical payload sent to a Zap.
+A test notification was sent to Zapier to validate and show a typical payload sent to a Zap. This is the end of the first step.
 
 
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap6.png" alt="">
 
+---
+---
+### Integration or Path {#anc7}
+
+Next step could be just choosing another integration, like Gmail, Office, Slack etc. or creating paths. 
+
+
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap7.png" alt="">
+
+---
+---
+### Diverging to paths {#anc8}
+
+Here we show how you can decide to use different integrations on step #2, depending on data that is received. By default you can have two starting paths.
 
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap8.png" alt="">
 
+### 
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap9.png" alt="">
 
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap10.png" alt="">
