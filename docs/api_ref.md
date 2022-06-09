@@ -8,9 +8,8 @@ This is the Smart API related to ***notifications***. It's divided to ***Follow 
 ### Follow API {#followTitle}
 
 ---
-{{site.data.alerts.note}}
+
 #### `DELETE` ***/api​/Follow​/unfollowAll*** {#anc1}
-{{site.data.alerts.end}}
 ---
 
 
