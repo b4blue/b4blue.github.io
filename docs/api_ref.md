@@ -20,7 +20,7 @@ Follow {#followTitle}
 
 ---------
 
-###`POST` ***/api​/Follow​/followed*** {#anc2}###
+### `POST` ***/api​/Follow​/followed*** {#anc2} ###
 
 
 **Request:**
