@@ -34,7 +34,7 @@ Button `Followed Items` opens a page where user can see a list of items he follo
 
 Followed Searches {#followedsearches}
 ------------------------
-Button `Followed Searches` opens a page with a list of saved user's searches that are followed. This is different from followed items. When user follows a search, items are generated from search results, just before notifications are dispatched. Depnding on criteria defined in the search, these items can be different every time notifications are dispatched.
+Button `Followed Searches` opens a page with a list of saved user's searches that are followed. This is different from followed items. When user follows a search, items are generated from search results, just before notifications are dispatched. Depnding on criteria defined in the search, these items can be different every time notifications are dispatched. This is very useful if you want to be notified about changes in certain markets or areas, but not tied to specific companies.
 
 Notifications interval {#interval}
 -------------------------------------
@@ -42,4 +42,4 @@ User can choose how often notifications should be generated and sent. Options ar
 
 Product Fields {#fields}
 ----------------------------------
-Every product has different fields that show what kind of changes user can expect from a product and here, user can choose which are important. This granularity allows user to focus on only things that really matter, so that when notifications are sent, the data is not overwhelming. When these values are set, they will apply to all the items user is following.
+Every product has different fields that show what kind of changes user can expect from a product, and here, user can choose which are important. This granularity allows user to focus on only things that really matter, so that when notifications are sent, the data is not overwhelming. When these values are set, they will apply to all the items user is following.
