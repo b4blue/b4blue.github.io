@@ -28,13 +28,14 @@ Notifications {#notifications}
 -------------------------
 Button `Notifications` is a link to a page where user can see a list of previous notifications that were sent from Smart, based on user settings. If user never used notifications, this list will be empty.
 
-Followed Items {#followed}
+Followings {#followed}
 --------------------------------------------------------------
-Button `Followed Items` opens a page where user can see a list of items he followed and will be taken into account when sending notifications.
+Button `Followings` opens a page where user can see a list of items he followed and will be taken into account when sending notifications.
+From there you can also unfollow all the items.
 
 Followed Searches {#followedsearches}
 ------------------------
-Button `Followed Searches` opens a page with a list of saved user's searches that are followed. This is different from followed items. When user follows a search, items are generated from search results, just before notifications are dispatched. Depnding on criteria defined in the search, these items can be different every time notifications are dispatched. This is very useful if you want to be notified about changes in certain markets or areas, but not tied to specific companies.
+Button `Followed Searches` opens a page with a list of saved user's searches that are followed. This is different from followed items. When user follows a search, items are generated from search results, just before notifications are dispatched. Depending on criteria defined in the search, these items can be different every time notifications are dispatched. This is very useful if you want to be notified about changes in certain markets or areas, but not tied to specific companies.
 
 Notifications interval {#interval}
 -------------------------------------
@@ -42,6 +43,7 @@ User can choose how often notifications should be generated and sent. Options ar
 
 ---
 ---
+
 Product Fields {#fields}
 ----------------------------------
 
@@ -66,4 +68,4 @@ Test Zap {#testZap}
 Option to send a test Zap is used once your Zap has been set up, published and turned on, so you can receive test data and see if everything works as expected. If Zap was sent successfully you will see a notification in the top left corner.
 
 
-<img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/notifications5.png" width="350px" height="110px" alt="">
+<img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/notifications1.png" width="350px" height="110px" alt="">
