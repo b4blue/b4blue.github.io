@@ -2,11 +2,10 @@
 layout: api-ref
 title: Api Reference
 ---
-This is some text about API
+This is the Smart API related to ***notifications***. It's divided to ***Follow API*** and ***Notification Settings API***. With first, user can define which items to follow and with second what kind of updates he wants to receive from those items.
 
 
-Follow API {#followTitle}
-=====================
+### Follow API {#followTitle}
 
 ---
 
@@ -454,8 +453,8 @@ Follow API {#followTitle}
 ~~~
 
 
-Notification Setting API{#notificationTitle}
-=============
+### Notification Setting API {#notificationTitle}
+
 
 ---
 
