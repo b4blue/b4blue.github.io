@@ -1,7 +1,7 @@
 # Site settings
 title: Zapier Smart Integration
 email: boris@smartapartmentdata.com
-description: Connect to your web data from Tableau.
+description: Smart integration with Zapier.
 baseurl: "/"
 # permalink: pretty
 defaults:
