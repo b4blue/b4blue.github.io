@@ -15,7 +15,7 @@ Settings page {#page}
 --------------------------------------------------
 
 
-<img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/notificationSettings.png" alt="">
+<img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/notifications3.png" alt="">
 
 **Note**: User can find this page by clicking on an icon in the bottom left corner of main navigation, then `User Settings`.
 
@@ -40,6 +40,30 @@ Notifications interval {#interval}
 -------------------------------------
 User can choose how often notifications should be generated and sent. Options are `Daily`, `Weekly` (with additional option to choose th day of the week), `Every month on the 1st` and `Every month on the last day of the month`. Next to these options the date for next notifications batch is calculated and displayed. 
 
+---
+---
 Product Fields {#fields}
 ----------------------------------
+
+<img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/notifications4.png" alt="">
+
+
 Every product has different fields that show what kind of changes user can expect from a product, and here, user can choose which are important. This granularity allows user to focus on only things that really matter, so that when notifications are sent, the data is not overwhelming. When these values are set, they will apply to all the items user is following.
+
+---
+---
+
+Integration Key {#integrationkey}
+------
+
+<img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/notifications5.png" alt="">
+
+Integration Key is used on Zapier to Authenticate Zap that uses Smart Integration. Here you can copy it or generate a new one. Be sure to update it in your Zap.
+
+Test Zap {#testZap}
+-----
+
+Option to send a test Zap is used once your Zap has been set up, published and turned on, so you can receive test data and see if everything works as expected. If Zap was sent successfully you will see a notification in the top left corner.
+
+
+<img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/notifications5.png" width="350px" height="110px" alt="">
