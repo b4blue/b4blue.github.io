@@ -3,10 +3,7 @@ title: Smart Integration
 layout: docs
 ---
 
-![](./assets/zap1.png =594x842)
-
-{:height="842px" width="594px"}
-
+<img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap1.png" height="842px" width="594px" alt="">
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap2.png" alt="">
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap3.png" alt="">
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap4.png" alt="">
@@ -20,7 +17,7 @@ layout: docs
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap12.png" alt="">
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/zap13.png" alt="">
 
-![zap14]({{ site.baseurl }}/assets/zap14.png){:height="140px" width="268px"}
+![zap14]({{ site.baseurl }}/assets/zap14.png){:height="140" width="268"}
 
 ![zap15]({{ site.baseurl }}/assets/zap15.png){:height="140px" width="1322px"}
 
