@@ -10,6 +10,8 @@ Follow {#followTitle}
 
 
 `DELETE` ***/api​/Follow​/unfollowAll*** {#anc1}
+---
+
 
 **Request:** None
 
@@ -18,6 +20,7 @@ Follow {#followTitle}
 ---------
 
 `POST` ***/api​/Follow​/followed*** {#anc2}
+---
 
 **Request:**
 ~~~
