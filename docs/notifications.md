@@ -10,10 +10,9 @@ This is where user can set up criteria for notifications, granularity depending 
 Settings page {#page}
 --------------------------------------------------
 
-
-<img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/notifications3.png" alt="">
-
 **Note**: User can find this page by clicking on an icon in the bottom left corner of main navigation, then `User Settings`.
+
+<img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/settings.jpg" alt="">
 
 Enable/disable {#enabled}
 --------------------------------------------------
@@ -37,16 +36,18 @@ Notifications interval {#interval}
 -------------------------------------
 User can choose how often notifications should be generated and sent. Options are `Daily`, `Weekly` (with additional option to choose th day of the week), `Every month on the 1st` and `Every month on the last day of the month`. Next to these options the date for next notifications batch is calculated and displayed. 
 
+<img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/notifications3.png" alt="">
+
 ---
 ---
 
 Product Fields {#fields}
 ----------------------------------
 
-<img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/notifications4.png" alt="">
-
 
 Every product has different fields that show what kind of changes user can expect from a product, and here, user can choose which are important. This granularity allows user to focus on only things that really matter, so that when notifications are sent, the data is not overwhelming. When these values are set, they will apply to all the items user is following.
+
+<img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/notifications4.png" alt="">
 
 ---
 ---
