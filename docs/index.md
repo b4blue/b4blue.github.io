@@ -27,7 +27,3 @@ To unfollow an item just click the same button.
 <img class="img-responsive docs-img" src="{{ site.baseurl }}/assets/notifications2.png" alt="">
 
 To follow more items at a time, when you are doing a search on a specific product, under menu `Actions` select `Follow Results` and all the items from search results will be followed.
-
-### Unfollow search results {#anc5}
-
-This is similar to following search results, but in this case, all the results from the search will be unfollowed.
