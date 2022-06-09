@@ -56,6 +56,7 @@ Follow {#followTitle}
 ------------
 
 `POST` ***/api​/Follow​/notifications*** {#anc3}
+---
 
 **Request:**
 ~~~
@@ -92,6 +93,7 @@ Follow {#followTitle}
 ~~~
 ---------
 `POST` ***/api​/Follow​/followList*** {#anc4}
+---
 
 **Request:**
 ~~~
@@ -106,6 +108,7 @@ Follow {#followTitle}
 
 ----
 `POST` ***/api​/Follow​/notifications​/test*** {#anc5}
+---
 
 **Request:** None
 
@@ -113,6 +116,7 @@ Follow {#followTitle}
 
 ----
 `POST` ***​/api​/Follow​/userSearch​/{id}​/follow*** {#anc6}
+---
 
 **Request:** None
 
@@ -120,6 +124,7 @@ Follow {#followTitle}
 
 ---
 `PUT` ***​/api​/Follow​/userSearch​/{id}​/unfollow*** {#anc7}
+---
 
 **Request:** None
 
@@ -127,6 +132,7 @@ Follow {#followTitle}
 
 ---
 `POST` ***/api​/Follow​/property​/{id}*** {#anc8}
+---
 
 **Request:** None
 
@@ -134,6 +140,7 @@ Follow {#followTitle}
 
 ---
 `PUT` ***/api​/Follow​/property​/{id}​/unfollow*** {#anc9}
+---
 
 **Request:** None
 
@@ -141,6 +148,7 @@ Follow {#followTitle}
 
 ---
 `POST` ***​/api​/Follow​/property​/followSearchResults*** {#anc10}
+---
 
 **Request:**
 ~~~
@@ -162,6 +170,7 @@ Follow {#followTitle}
 
 ---
 `PUT` ***/api​/Follow​/property​/unfollowSearchResults*** {#anc11}
+---
 
 **Request:**
 ~~~
@@ -183,6 +192,7 @@ Follow {#followTitle}
 
 ---
 `POST` ***/api​/Follow​/pipeline​/{id}*** {#anc12}
+---
 
 **Request:** None
 
@@ -190,6 +200,7 @@ Follow {#followTitle}
 
 ---
 `PUT` ***​/api​/Follow​/pipeline​/{id}​/unfollow*** {#anc13}
+---
 
 **Request:** None
 
@@ -197,6 +208,7 @@ Follow {#followTitle}
 
 ---
 `POST` ***/api​/Follow​/pipeline​/followSearchResults*** {#anc14}
+---
 
 **Request:**
 ~~~
@@ -218,6 +230,7 @@ Follow {#followTitle}
 
 ---
 `PUT` ***/api​/Follow​/pipeline​/unfollowSearchResults*** {#anc15}
+---
 
 **Request:**
 ~~~
@@ -239,6 +252,7 @@ Follow {#followTitle}
 
 ---
 `POST` ***/api​/Follow​/management​/{id}*** {#anc16}
+---
 
 **Request:** None
 
@@ -246,6 +260,7 @@ Follow {#followTitle}
 
 ---
 `PUT` ***/api​/Follow​/management​/{id}​/unfollow*** {#anc17}
+---
 
 **Request:** None
 
@@ -253,6 +268,7 @@ Follow {#followTitle}
 
 ---
 `POST` ***​/api​/Follow​/management​/followSearchResults*** {#anc18}
+---
 
 **Request:**
 ~~~
@@ -274,6 +290,7 @@ Follow {#followTitle}
 
 ---
 `PUT` ***/api​/Follow​/management​/unfollowSearchResults*** {#anc19}
+---
 
 **Request:**
 ~~~
@@ -295,6 +312,7 @@ Follow {#followTitle}
 
 ---
 `POST` ***/api​/Follow​/directory​/{id}*** {#anc20}
+---
 
 **Request:** None
 
@@ -302,6 +320,7 @@ Follow {#followTitle}
 
 ---
 `PUT` ***​/api​/Follow​/directory​/{id}​/unfollow*** {#anc21}
+---
 
 **Request:** None
 
@@ -309,6 +328,7 @@ Follow {#followTitle}
 
 ---
 `POST` ***/api​/Follow​/directory​/followSearchResults*** {#anc22}
+---
 
 **Request:**
 ~~~
@@ -328,6 +348,7 @@ Follow {#followTitle}
 ~~~
 
 `PUT` ***/api​/Follow​/directory​/unfollowSearchResults*** {#anc23}
+---
 
 **Request:**
 ~~~
@@ -349,6 +370,7 @@ Follow {#followTitle}
 
 ---
 `POST` ***​/api​/Follow​/developer​/{id}*** {#anc24}
+---
 
 **Request:** None
 
@@ -356,6 +378,7 @@ Follow {#followTitle}
 
 ---
 `PUT` ***/api​/Follow​/developer​/{id}​/unfollow*** {#anc25}
+---
 
 **Request:** None
 
@@ -363,6 +386,7 @@ Follow {#followTitle}
 
 ---
 `POST` ***/api​/Follow​/developer​/followSearchResults*** {#anc26}
+---
 
 **Request:**
 ~~~
@@ -384,6 +408,7 @@ Follow {#followTitle}
 
 ---
 `PUT` ***/api​/Follow​/developer​/unfollowSearchResults*** {#anc27}
+---
 
 **Request:**
 ~~~
@@ -409,6 +434,7 @@ NotificationSetting {#notificationTitle}
 
 
 `GET` ***​/api​/NotificationSetting*** {#anc28}
+---
 
 **Request:** None
 
@@ -454,6 +480,7 @@ NotificationSetting {#notificationTitle}
 
 ---
 `PUT` ***/api​/NotificationSetting*** {#anc29}
+---
 
 **Request:**
 ~~~
@@ -539,6 +566,7 @@ NotificationSetting {#notificationTitle}
 
 ---
 `POST` ***/api​/NotificationSetting*** {#anc30}
+---
 
 **Request:**
 ~~~
@@ -624,10 +652,14 @@ NotificationSetting {#notificationTitle}
 
 ---
 `DELETE` ***/api​/NotificationSetting*** {#anc31}
+---
 **Request:** None
+
 **Response:** Bool
 
+---
 `PUT` ***/api​/NotificationSetting​/token*** {#anc32}
+---
 
 **Request:** None
 
@@ -641,6 +673,7 @@ NotificationSetting {#notificationTitle}
 
 ---
 `GET` ***/api​/NotificationSetting​/token*** {#anc33}
+---
 
 **Request:** None
 
