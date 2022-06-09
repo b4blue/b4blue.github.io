@@ -4,11 +4,7 @@ layout: docs
 ---
 
 This document explains all the settings for notifications. 
-
 This is where user can set up criteria for notifications, granularity depending on products, time intervals for notifications, 
-
-* TOC
-{:toc}
 
 
 Settings page {#page}
