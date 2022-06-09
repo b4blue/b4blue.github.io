@@ -5,12 +5,12 @@ title: Api Reference
 This is some text about API
 
 
-Follow {#followTitle}
+Follow API {#followTitle}
 =====================
 
 ---
 
-`DELETE` ***/api​/Follow​/unfollowAll*** {#anc1}
+### `DELETE` ***/api​/Follow​/unfollowAll*** ### {#anc1}
 ---
 
 
@@ -20,8 +20,8 @@ Follow {#followTitle}
 
 ---------
 
-### `POST` ***/api​/Follow​/followed*** {#anc2} ###
-
+### `POST` ***/api​/Follow​/followed*** {#anc2}
+---
 
 **Request:**
 ~~~
@@ -455,7 +455,7 @@ Follow {#followTitle}
 
 
 Notification Setting API{#notificationTitle}
--------------------
+=============
 
 ---
 
