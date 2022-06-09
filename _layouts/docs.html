@@ -7,6 +7,7 @@ layout: docs
 
 <head>
     {% include head.html %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/api_ref.css">
 </head>
 
 <body>
@@ -16,11 +17,6 @@ layout: docs
 
         <div class="content .col-xs-12 .col-sm-8 .col-md-9">
             <h1>{{ page.title }}</h1>
-            <div class="edit-container">
-                <a href="https://github.com/tableau/webdataconnector/edit/master/{{ page.path }}" class="edit-links"><span class="glyphicon glyphicon-pencil"></span> Edit this page</a>
-                &nbsp;
-                <a href="https://github.com/tableau/webdataconnector/issues" class="edit-links"><span class="glyphicon glyphicon-flag"></span> Submit an issue</a>
-            </div>
             <br />
             {{ content }}
             {% include footer.html %}

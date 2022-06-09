@@ -1,169 +1,131 @@
 ---
 layout: api-ref
-title: WDC API Reference
+title: Api Reference
 ---
+This is some text about API
+
 
 Follow {#followTitle}
-------------------
+------------------------------------
 
 
-`DELETE` ```/api​/Follow​/unfollowAll```
+`DELETE` ***/api​/Follow​/unfollowAll***
 
 
-POST
-​/api​/Follow​/followed
+`POST` ***/api​/Follow​/followed***
 
 
-POST
-​/api​/Follow​/notifications
+`POST` ***/api​/Follow​/notifications***
 
 
-POST
-​/api​/Follow​/followList
+`POST` ***/api​/Follow​/followList***
 
 
-POST
-​/api​/Follow​/debug​/notifications
+`POST` ***/api​/Follow​/debug​/notifications***
 
 
-DELETE
-​/api​/Follow​/debug​/notifications
+`DELETE` ***​/api​/Follow​/debug​/notifications***
 
 
-POST
-​/api​/Follow​/notifications​/test
+`POST` ***/api​/Follow​/notifications​/test***
 
 
-POST
-​/api​/Follow​/userSearch​/follow
+`POST` ***/api​/Follow​/userSearch​/follow***
 
 
-POST
-​/api​/Follow​/userSearch​/{id}​/follow
+`POST` ***​/api​/Follow​/userSearch​/{id}​/follow***
 
 
-PUT
-​/api​/Follow​/userSearch​/{id}​/unfollow
+`PUT` ***​/api​/Follow​/userSearch​/{id}​/unfollow***
 
 
-POST
-​/api​/Follow​/property​/{id}
+`POST` ***/api​/Follow​/property​/{id}***
 
 
-PUT
-​/api​/Follow​/property​/{id}​/unfollow
+`PUT` ***/api​/Follow​/property​/{id}​/unfollow***
 
 
-POST
-​/api​/Follow​/property​/followSearchResults
+`POST` ***​/api​/Follow​/property​/followSearchResults***
 
 
-PUT
-​/api​/Follow​/property​/unfollowSearchResults
+`PUT` ***/api​/Follow​/property​/unfollowSearchResults***
 
 
-POST
-​/api​/Follow​/property​/followed
+`POST` ***​/api​/Follow​/property​/followed***
 
 
-GET
-​/api​/Follow​/property​/notifications
+`GET` ***/api​/Follow​/property​/notifications***
 
 
-POST
-​/api​/Follow​/pipeline​/{id}
+`POST` ***/api​/Follow​/pipeline​/{id}***
 
 
-PUT
-​/api​/Follow​/pipeline​/{id}​/unfollow
+`PUT` ***​/api​/Follow​/pipeline​/{id}​/unfollow***
 
 
-POST
-​/api​/Follow​/pipeline​/followSearchResults
+`POST` ***/api​/Follow​/pipeline​/followSearchResults***
 
 
-PUT
-​/api​/Follow​/pipeline​/unfollowSearchResults
+`PUT` ***/api​/Follow​/pipeline​/unfollowSearchResults***
 
 
-POST
-​/api​/Follow​/pipeline​/followed
+`POST` ***/api​/Follow​/pipeline​/followed***
 
 
-GET
-​/api​/Follow​/pipeline​/notifications
+`GET` ***/api​/Follow​/pipeline​/notifications***
 
 
-POST
-​/api​/Follow​/management​/{id}
+`POST` ***/api​/Follow​/management​/{id}***
 
 
-PUT
-​/api​/Follow​/management​/{id}​/unfollow
+`PUT` ***/api​/Follow​/management​/{id}​/unfollow***
 
 
-POST
-​/api​/Follow​/management​/followSearchResults
+`POST` ***​/api​/Follow​/management​/followSearchResults***
 
 
-PUT
-​/api​/Follow​/management​/unfollowSearchResults
+`PUT` ***/api​/Follow​/management​/unfollowSearchResults***
 
 
-POST
-​/api​/Follow​/management​/followed
+`POST` ***/api​/Follow​/management​/followed***
 
 
-GET
-​/api​/Follow​/management​/notifications
+`GET` ***​/api​/Follow​/management​/notifications***
 
 
-POST
-​/api​/Follow​/directory​/{id}
+`POST` ***/api​/Follow​/directory​/{id}***
 
 
-PUT
-​/api​/Follow​/directory​/{id}​/unfollow
+`PUT` ***​/api​/Follow​/directory​/{id}​/unfollow***
 
+`POST` ***/api​/Follow​/directory​/followSearchResults***
 
-POST
-​/api​/Follow​/directory​/followSearchResults
 
+`PUT` ***/api​/Follow​/directory​/unfollowSearchResults***
 
-PUT
-​/api​/Follow​/directory​/unfollowSearchResults
 
+`POST` ***​/api​/Follow​/directory​/followed***
 
-POST
-​/api​/Follow​/directory​/followed
 
+`GET` ***/api​/Follow​/directory​/notifications***
 
-GET
-​/api​/Follow​/directory​/notifications
 
+`POST` ***​/api​/Follow​/developer​/{id}***
 
-POST
-​/api​/Follow​/developer​/{id}
 
+`PUT` ***/api​/Follow​/developer​/{id}​/unfollow***
 
-PUT
-​/api​/Follow​/developer​/{id}​/unfollow
 
+`POST` ***/api​/Follow​/developer​/followSearchResults***
 
-POST
-​/api​/Follow​/developer​/followSearchResults
 
+`PUT` ***/api​/Follow​/developer​/unfollowSearchResults***
 
-PUT
-​/api​/Follow​/developer​/unfollowSearchResults
 
+`POST` ***/api​/Follow​/developer​/followed***
 
-POST
-​/api​/Follow​/developer​/followed
 
-
-GET
-​/api​/Follow​/developer​/notifications
+`GET` ***/api​/Follow​/developer​/notifications***
 
 
 
@@ -171,25 +133,19 @@ NotificationSetting {#notificationTitle}
 -------------------
 
 
-GET
-​/api​/NotificationSetting
+`GET` ***​/api​/NotificationSetting***
 
 
-PUT
-​/api​/NotificationSetting
+`PUT` ***/api​/NotificationSetting***
 
 
-POST
-​/api​/NotificationSetting
+`POST` ***/api​/NotificationSetting***
 
 
-DELETE
-​/api​/NotificationSetting
+`DELETE` ***/api​/NotificationSetting***
 
 
-PUT
-​/api​/NotificationSetting​/token
+`PUT` ***/api​/NotificationSetting​/token***
 
 
-GET
-​/api​/NotificationSetting​/token
+`GET` ***/api​/NotificationSetting​/token***
