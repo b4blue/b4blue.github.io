@@ -1,7 +1,32 @@
 ---
-title: Notifications Settings
+title: Smart Apartment Data Concepts
 layout: docs
 ---
+
+## Overview 
+(globalno sta smart cuva itd itd)
+## Products 
+## Timeline
+## Follow
+## Notification Settings
+## Notification
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This document explains all the settings for notifications. 
 This is where user can set up criteria for notifications, granularity depending on products, time intervals for notifications, 
