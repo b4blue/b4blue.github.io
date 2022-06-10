@@ -1,0 +1,27 @@
+---
+layout: concepts
+---
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% include head.html %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/api_ref.css">
+</head>
+
+<body>
+    <div class="container">
+        {% include header.html %}
+        {% include concept_menu.html %}
+
+        <div class="content .col-xs-12 .col-sm-8 .col-md-9">
+            <h1>{{ page.title }}</h1>
+            <br />
+            {{ content }}
+            {% include footer.html %}
+        </div>
+    </div>
+</body>
+
+</html>
